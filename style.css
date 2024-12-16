@@ -23,7 +23,7 @@ html, body{
 #cursor-blur{
     height: 400px;
     width: 400px;
-    background-color: #96c11e4b;
+    background-color: #96c11e8f;
     border-radius: 50%;
     position: fixed;
     filter: blur(50px);
@@ -107,7 +107,7 @@ video{
 }
 
 #page2{
-    height: 100vh;
+    height: 30vh;
     width: 100%;
     z-index: 10;
 }
@@ -124,7 +124,7 @@ video{
     display: none;
   }
 
-  #scroller-in {
+  .scroller-in {
     display: inline-block;
     white-space: nowrap;
     animation-name: scroll;
@@ -143,6 +143,7 @@ video{
     color: #000;
     -webkit-text-stroke: 2px #ffffff;
   }
+
   #scroller h4:hover {
     color: #95c11e;
     -webkit-text-stroke: 2px #95c11e;
@@ -156,3 +157,43 @@ video{
       transform: translateX(-100%);
     }
   }
+
+#about-us{
+    height: 40vh;
+    width: 100%;
+    /* background-color: red; */
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+#about-us img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.writing{
+    width: 55%;
+    text-align: center;
+
+}
+
+.writing h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.writing p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.writing p:nth-child(3){
+    margin-top: 20px;
+}
