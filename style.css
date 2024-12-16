@@ -413,7 +413,7 @@ video {
 
 #footer {
     height: 50vh;
-    width: 100%;
+    width: 86%;
     background: linear-gradient(to left bottom, #119F3A, #ACE022);
     position: relative;
     display: flex;
